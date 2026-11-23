@@ -1,0 +1,28 @@
+{
+  "name": "js_recipes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jo-and75/js_recipes.git"
+  },
+  "keywords": [],
+  "author": "joshua_andrew_otika <jaotika@gmail.com>",
+  "license": "RU",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/jo-and75/js_recipes/issues"
+  },
+  "homepage": "https://github.com/jo-and75/js_recipes#readme",
+  "devDependencies": {
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.8",
+    "webpack": "^5.113.0",
+    "webpack-cli": "^7.3.1",
+    "webpack-dev-server": "^6.1.0"
+  }
+}
