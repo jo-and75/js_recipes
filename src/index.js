@@ -1,6 +1,16 @@
 //index.js
-import {renderDom} from "./home.js";
-import menu from "./menu.js"; 
+import {renderDom, homeBtn} from "./home.js";
+import menu, { menuBtn } from "./menu.js"; 
+
+menuBtn.addEventListener('click',function(){ 
+    content.innerHTML = "";
+    renderMenu();
+})
+
+homeBtn.addEventListener('click', function(){ 
+    content.innerHTML = ""; 
+    renderDom();
+}) 
 
 function renderMenu(){ 
     const content = document.getElementById("content");  
@@ -36,9 +46,11 @@ function renderMenu(){
         menuContainer.append(section);        
     }
     content.append(title,menuContainer);
-
-
 }
 
+
+
 renderDom();
+
+
 console.log("Testing Testing");

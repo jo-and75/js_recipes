@@ -70,7 +70,8 @@ const menu = {
         { name: "Iced Coffee", price: 15 },
         { name: "Mineral Water", price: 5 }
     ]
-};
+}; 
 
+export const menuBtn = document.getElementById("menu");
 export default menu;
 
