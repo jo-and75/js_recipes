@@ -1,4 +1,5 @@
 //index.js
+import "./styles.css";
 import {renderDom, homeBtn} from "./home.js";
 import menu, { menuBtn } from "./menu.js"; 
 import { contactBtn,contact } from "./contact.js";
@@ -54,9 +55,15 @@ function renderMenu(){
     content.append(title,menuContainer);
 }
 
+function setActiveTab(button) {
+    document.querySelectorAll("nav button").forEach(btn => {
+        btn.classList.remove("active");
+    });
+
+    button.classList.add("active");
+}
 
 
 renderDom();
 
 
-console.log("Testing Testing");
