@@ -1,6 +1,7 @@
 //index.js
 import {renderDom, homeBtn} from "./home.js";
 import menu, { menuBtn } from "./menu.js"; 
+import { contactBtn,contact } from "./contact.js";
 
 menuBtn.addEventListener('click',function(){ 
     content.innerHTML = "";
@@ -10,7 +11,12 @@ menuBtn.addEventListener('click',function(){
 homeBtn.addEventListener('click', function(){ 
     content.innerHTML = ""; 
     renderDom();
-}) 
+})  
+
+contactBtn.addEventListener('click',function(){ 
+    content.innerHTML = ""; 
+    contact();
+})
 
 function renderMenu(){ 
     const content = document.getElementById("content");  
