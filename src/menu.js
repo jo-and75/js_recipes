@@ -1,3 +1,4 @@
+//menu.js
 const menu = {
     Starters: [
         {

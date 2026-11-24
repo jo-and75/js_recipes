@@ -7,7 +7,7 @@
     --mocha-dark: #293D30;
     --mocha-light: #718573;
     --watermelon: #E98F91;
-    --text: #343A32;
+    --text: #171e14;
     --muted: #77796F;
     --white: #FFFFFF;
     --shadow: 0 6px 24px rgba(41, 61, 48, 0.08);
@@ -31,9 +31,9 @@ body {
     min-height: 100vh;
 }
 
-/* =========================
-   NAVIGATION
-========================= */
+/*
+   FOR NAV
+*/
 
 header {
     background-color: var(--mocha);
@@ -70,14 +70,14 @@ nav button:hover {
     background-color: var(--mocha-light);
 }
 
-nav button.active {
+nav button:active {
     background-color: var(--watermelon);
     color: var(--mocha-dark);
 }
 
-/* =========================
+/* 
    MAIN CONTENT
-========================= */
+ */
 
 #content {
     max-width: 1050px;
@@ -105,9 +105,9 @@ nav button.active {
     margin-bottom: 16px;
 }
 
-/* =========================
+/* 
    HOME PAGE
-========================= */
+ */
 
 #content > h1,
 #content > p,
@@ -144,9 +144,9 @@ nav button.active {
     color: var(--mocha-dark);
 }
 
-/* =========================
+/* 
    MENU PAGE
-========================= */
+ */
 
 .menu-container {
     width: 100%;
@@ -210,9 +210,9 @@ nav button.active {
     margin-bottom: 0;
 }
 
-/* =========================
+/* 
    CONTACT PAGE
-========================= */
+ */
 
 #content > p strong {
     color: var(--mocha-dark);
@@ -224,9 +224,9 @@ nav button.active {
     margin-right: auto;
 }
 
-/* =========================
-   RESPONSIVE DESIGN
-========================= */
+/* 
+   NAV RESPONSIVE DESIGN
+ */
 
 @media (max-width: 600px) {
     header {
